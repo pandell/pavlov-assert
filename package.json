@@ -9,7 +9,7 @@
     "url": "git+https://github.com/pandell/pavlov-assert.git"
   },
   "typescript": {
-    "definition": "assert.d.ts"
+    "definition": "dist/assert.d.ts"
   },
   "author": {
     "name": "Pandell",

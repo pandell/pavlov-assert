@@ -44,6 +44,7 @@
   "readmeFilename": "README.md",
   "devDependencies": {
     "mocha": "^2.4",
+    "mocha-testdata": "^1.1",
     "tslint": "^3.6",
     "typescript": "^1.8"
   }

@@ -1,7 +1,7 @@
 {
   "name": "pavlov-assert",
   "version": "1.0.0",
-  "description": "Fluent, extendable assertions",
+  "description": "Fluent assertions",
   "license": "MIT",
   "main": "dist/assert.js",
   "repository": {

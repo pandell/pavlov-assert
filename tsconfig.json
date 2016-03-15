@@ -12,6 +12,7 @@
     "target": "es5"
   },
   "exclude": [
+    "dist",
     "node_modules",
     "typings/browser.d.ts",
     "typings/browser"

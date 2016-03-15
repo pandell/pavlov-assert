@@ -1,4 +1,5 @@
 /dist/
 /node_modules/
-/typings/
+/typings/browser*
+/typings/main*
 /*.log

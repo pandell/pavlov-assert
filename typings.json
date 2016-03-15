@@ -1,4 +1,8 @@
 {
   "version": false,
-  "dependencies": {}
+  "dependencies": {},
+  "ambientDevDependencies": {
+    "mocha": "registry:dt/mocha#2.2.5+20151023103246",
+    "node": "registry:dt/node#4.0.0+20160311162451"
+  }
 }

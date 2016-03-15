@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Fluent, extendable assertions",
   "license": "MIT",
-  "main": "dist/src/assert.js",
+  "main": "dist/assert.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pandell/pavlov-assert.git"
@@ -35,7 +35,7 @@
     "build": "npm run lint && tsc",
     "lint": "tslint src/*.ts",
     "prepublish": "typings install && npm run build",
-    "test": "npm run build && mocha dist/test/*.js"
+    "test": "npm run build && mocha test/*.js"
   },
   "bugs": {
     "url": "https://github.com/pandell/pavlov-assert/issues"

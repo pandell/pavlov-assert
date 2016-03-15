@@ -1,9 +1,14 @@
-import * as assert from "assert";
-import * as given from "mocha-testdata";
+/*jslint node: true */
+/*global describe: false */
 
-import * as pavlovAssert from "../src/assert";
+"use strict";
 
-describe("assert", () => {
+var assert = require("assert");
+var given = require("mocha-testdata");
+
+var pavlovAssert = require("../dist/assert");
+
+describe("assert", function () {
 
     given([
         "equals",
@@ -42,8 +47,8 @@ describe("assert", () => {
         "isNotBoolean",
         "isNotUndefined",
         "isNotNull"
-    ]).it("defines default assertions", (name) => {
-        const a = pavlovAssert({}) as any;
+    ]).it("defines default assertions", function (name) {
+        var a = pavlovAssert();
         assert.ok(typeof a[name] === "function");
     });
 

@@ -55,64 +55,64 @@ Returns: an object that can perform assertions on the supplied value.
 
 ### Assertion methods
 
-#### `pass(message?: string): void`
+#### `pass(message?: string)`
 Passes with the given message.
 
-#### `fail(message?: string): void`
+#### `fail(message?: string)`
 Fails with the given message.
 
-#### `equals(expected: any, message?: string): void`
-#### `isEqualTo(expected: any, message?: string): void`
-#### `isNotEqualTo(expected: any, message?: string): void`
+#### `equals(expected: any, message?: string)`
+#### `isEqualTo(expected: any, message?: string)`
+#### `isNotEqualTo(expected: any, message?: string)`
 Tests strict equality.
 
-#### `isSimilarTo(expected: any, message?: string): void`
-#### `isNotSimilarTo(expected: any, message?: string): void`
+#### `isSimilarTo(expected: any, message?: string)`
+#### `isNotSimilarTo(expected: any, message?: string)`
 Tests non-strict equality.
 
-#### `isOfType(expected: string, message?: string): void`
+#### `isOfType(expected: string, message?: string)`
 Tests the type string for the given value.
 
-#### `isTrue(message?: string): void`
+#### `isTrue(message?: string)`
 Tests strict equality to `true`.
 
-#### `isFalse(message?: string): void`
+#### `isFalse(message?: string)`
 Tests strict equality to `false`.
 
-#### `isDefined(message?: string): void`
-#### `isNotDefined(message?: string): void`
+#### `isDefined(message?: string)`
+#### `isNotDefined(message?: string)`
 Compares against `null` and `undefined`.
 
-#### `isSameAs(expected: any, message?: string): void`
-#### `isNotSameAs(expected: any, message?: string): void`
+#### `isSameAs(expected: any, message?: string)`
+#### `isNotSameAs(expected: any, message?: string)`
 Tests deep equality.
 
-#### `throwsError(message?: string): void`
+#### `throwsError(message?: string)`
 Tests that the supplied function throws an `Error`.
 
-#### `throwsErrorWithMessage(expectedMessage: string, message?: string): void`
+#### `throwsErrorWithMessage(expectedMessage: string, message?: string)`
 Tests that the supplied function throws an `Error` with a matching message.
 
-#### `isString(message?: string): void`
-#### `isNotString(message?: string): void`
-#### `isArray(message?: string): void`
-#### `isNotArray(message?: string): void`
-#### `isObject(message?: string): void`
-#### `isNotObject(message?: string): void`
-#### `isFunction(message?: string): void`
-#### `isNotFunction(message?: string): void`
-#### `isRegExp(message?: string): void`
-#### `isNotRegExp(message?: string): void`
-#### `isDate(message?: string): void`
-#### `isNotDate(message?: string): void`
-#### `isNumber(message?: string): void`
-#### `isNotNumber(message?: string): void`
-#### `isBoolean(message?: string): void`
-#### `isNotBoolean(message?: string): void`
-#### `isUndefined(message?: string): void`
-#### `isNotUndefined(message?: string): void`
-#### `isNull(message?: string): void`
-#### `isNotNull(message?: string): void`
+#### `isString(message?: string)`
+#### `isNotString(message?: string)`
+#### `isArray(message?: string)`
+#### `isNotArray(message?: string)`
+#### `isObject(message?: string)`
+#### `isNotObject(message?: string)`
+#### `isFunction(message?: string)`
+#### `isNotFunction(message?: string)`
+#### `isRegExp(message?: string)`
+#### `isNotRegExp(message?: string)`
+#### `isDate(message?: string)`
+#### `isNotDate(message?: string)`
+#### `isNumber(message?: string)`
+#### `isNotNumber(message?: string)`
+#### `isBoolean(message?: string)`
+#### `isNotBoolean(message?: string)`
+#### `isUndefined(message?: string)`
+#### `isNotUndefined(message?: string)`
+#### `isNull(message?: string)`
+#### `isNotNull(message?: string)`
 Convenience functions for testing strict type equality.
 
 ## Contributing

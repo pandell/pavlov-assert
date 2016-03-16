@@ -1,0 +1,51 @@
+{
+  "name": "pavlov-assert",
+  "version": "1.0.0",
+  "description": "Fluent assertions",
+  "license": "MIT",
+  "main": "dist/assert.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pandell/pavlov-assert.git"
+  },
+  "typescript": {
+    "definition": "dist/assert.d.ts"
+  },
+  "author": {
+    "name": "Pandell",
+    "url": "http://pandell.com/"
+  },
+  "contributors": [
+    {
+      "name": "John Gozde",
+      "url": "https://github.com/jgoz"
+    },
+    {
+      "name": "Milan Gardian",
+      "url": "https://github.com/milang"
+    }
+  ],
+  "keywords": [
+    "assert",
+    "test",
+    "bdd",
+    "pavlov"
+  ],
+  "scripts": {
+    "build": "npm run lint && tsc",
+    "lint": "tslint src/*.ts",
+    "prepublish": "typings install && npm run build",
+    "test": "npm run build && mocha test/*.js"
+  },
+  "bugs": {
+    "url": "https://github.com/pandell/pavlov-assert/issues"
+  },
+  "homepage": "https://github.com/pandell/pavlov-assert#readme",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "mocha": "^2.4",
+    "mocha-testdata": "^1.1",
+    "tslint": "^3.6",
+    "typescript": "^1.8"
+  }
+}

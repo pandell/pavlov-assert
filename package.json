@@ -4,6 +4,7 @@
   "description": "Fluent assertions",
   "license": "MIT",
   "main": "dist/assert.js",
+  "typings": "dist/assert.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pandell/pavlov-assert.git"

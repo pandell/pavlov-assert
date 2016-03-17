@@ -4,12 +4,10 @@
   "description": "Fluent assertions",
   "license": "MIT",
   "main": "dist/assert.js",
+  "typings": "dist/assert.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pandell/pavlov-assert.git"
-  },
-  "typescript": {
-    "definition": "dist/assert.d.ts"
   },
   "author": {
     "name": "Pandell",
@@ -46,6 +44,7 @@
     "mocha": "^2.4",
     "mocha-testdata": "^1.1",
     "tslint": "^3.6",
-    "typescript": "^1.8"
+    "typescript": "^1.8",
+    "typings": "^0.7"
   }
 }

@@ -1,4 +1,5 @@
 {
+  "name": "pavlov-assert",
   "version": false,
   "dependencies": {},
   "ambientDevDependencies": {

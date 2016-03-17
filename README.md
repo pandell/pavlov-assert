@@ -17,6 +17,7 @@ Fluent assertions library extracted from [pavlov](https://github.com/mmonteleone
 $ npm install --save-dev pavlov-assert
 ```
 
+If you are using typescript, type definitions will be automatically provided.
 
 ## Usage
 

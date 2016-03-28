@@ -30,6 +30,7 @@
     "pavlov"
   ],
   "scripts": {
+    "clobber": "git -c core.longpaths=true clean -dfX",
     "build": "npm run lint && tsc",
     "lint": "tslint src/*.ts",
     "prepublish": "typings install && npm run build",
